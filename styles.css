@@ -93,3 +93,28 @@ h2 {
     color: #777;
     margin-top: 10px;
 }
+@media screen and (max-width: 768px) {
+            .profile-card {
+                width: 90%;
+                padding: 15px;
+                font-size: 14px;
+            }
+
+            .profile-picture {
+                width: 100px;
+                height: 100px;
+            }
+
+            .profile-info h2 {
+                font-size: 18px;
+            }
+
+            .profile-info p {
+                font-size: 14px;
+            }
+
+            .social-links {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
