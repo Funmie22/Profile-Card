@@ -94,6 +94,10 @@ h2 {
     margin-top: 10px;
 }
 @media screen and (max-width: 768px) {
+    body{
+        background-color: white;
+    }
+    
             .profile-card {
                 width: 90%;
                 padding: 15px;
