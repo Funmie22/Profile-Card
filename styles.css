@@ -93,32 +93,37 @@ h2 {
     color: #777;
     margin-top: 10px;
 }
+
 @media screen and (max-width: 768px) {
     body{
         background-color: white;
     }
-    
-            .profile-card {
-                width: 90%;
-                padding: 15px;
-                font-size: 14px;
-            }
+    .profile-card {
+        width: 80%;
+        height: 300px;
+        padding: 15px;
+        font-size: 6px;
+    }
 
-            .profile-picture {
-                width: 100px;
-                height: 100px;
-            }
+    .profile-picture {
+        width: 100px;
+        height: 100px;
+    }
 
-            .profile-info h2 {
-                font-size: 18px;
-            }
+    .profile-info h2 {
+        font-size: 12px;
+    }
 
-            .profile-info p {
-                font-size: 14px;
-            }
+    .profile-info p {
+        font-size: 10px;
+    }
 
-            .social-links {
-                flex-direction: column;
-                gap: 10px;
-            }
-        }
+    .social-links {
+        white-space: nowrap;
+    }
+    .social-links i{
+        width: 0.2rem;
+        height: 0.5rem;
+
+    }
+}
