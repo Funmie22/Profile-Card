@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(51, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.profile-card {
+    background: black;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px #077b32;
+    width: 90%;
+    max-width: 500px;
+    transition: 0.3s;
+}
+.name{
+    color: #077b32;
+}
+.typewriter-text{
+    color: #077b32;
+}
+
+.profile-img {
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+h2 {
+    color: #f8f6f6;
+    margin: 10px 0;
+}
+.social-links i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 1rem;
+    height: 2rem;
+    background-color: transparent;
+    border: 0.2rem solid #077b32;
+    border-radius: 50%;
+    color: #077b32;
+    margin: 5px 15px;
+    font-size: 1.5rem;
+    transition: 0.2s linear;
+}
+.job-title {
+    font-weight: bold;
+    color: #f8f6f6;
+}
+
+.bio {
+    font-size: 14px;
+    color: #f8f6f6;
+    margin: 10px 0;
+}
+
+.location {
+    font-weight: bold;
+    color: #f8f6f6;
+}
+
+.email a {
+    text-decoration: none;
+    color: #077b32;
+}
+
+.email a:hover {
+    text-decoration: underline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #007bff;
+    margin: 0 5px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.utc-time {
+    font-size: 14px;
+    color: #777;
+    margin-top: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+        <img src="funmi.jpg" alt="Profile Picture" class="profile-img" data-testid="profilePicture">
+        </div>
+        <div class="content">
+        <h2 data-testid="fullName">DAHUNSI</h2> <span class="name">Funmilayo Rhoda</span>
+        <p class="job-title" data-testid="jobTitle">I'm a <span class="typewriter-text"></span><label for="">|</label> </p> 
+        <p class="bio" data-testid="shortBio">
+            Passionate frontend developer with experience in React, JavaScript, and Web3. 
+            Dedicated to building user-friendly, accessible web applications.
+        </p>
+        <p class="location" data-testid="currentLocation">Ilorin, Nigeria</p>
+        <p class="email" data-testid="emailAddress">
+            📧 <a href="mailto:funmi425@gmail.com">funmi425@gmail.com</a>
+        </p>
+        <div class="social-links" data-testid="socialLinks">
+            <a href="https://github.com/Funmie22" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+            <a href="https://web.facebook.com/profile.php?id=100009300346238" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/funmi-dahunsi-309416b7/" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://x.com/Funmie22" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i class="fa-brands fa-twitter"></i></a>
+        </div>
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time: <span id="utc-time"></span></p>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
